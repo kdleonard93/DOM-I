@@ -65,3 +65,15 @@ nav[2].textContent = siteContent["nav"]["nav-item-3"];
 nav[3].textContent = siteContent["nav"]["nav-item-4"];
 nav[4].textContent = siteContent["nav"]["nav-item-5"];
 nav[5].textContent = siteContent["nav"]["nav-item-6"];
+
+// CTA content
+// let ctaText = document.getElementsByClassName(".cta-text");
+let ctaHead = document.querySelector("h1");
+let button = document.querySelector("button");
+let br = document.createElement("br");
+
+ctaHead.textContent = siteContent["cta"]["h1"];
+
+button.textContent = siteContent["cta"]["button"];
+
+// Main Content
