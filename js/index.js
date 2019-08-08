@@ -77,3 +77,28 @@ ctaHead.textContent = siteContent["cta"]["h1"];
 button.textContent = siteContent["cta"]["button"];
 
 // Main Content
+let featuresH4 = document.querySelectorAll("h4")[0];
+featuresH4.textContent = siteContent["main-content"]["features-h4"];
+
+let featuresP = document.querySelectorAll("p")[0];
+featuresP.textContent = siteContent["main-content"]["features-content"];
+
+let aboutH4 = document.querySelectorAll("h4")[1];
+aboutH4.textContent = siteContent["main-content"]["about-h4"];
+
+let aboutP = document.querySelectorAll("p")[1];
+aboutP.textContent = siteContent["main-content"]["about-content"];
+
+let servicesH4 = document.querySelectorAll("h4")[2];
+servicesH4.textContent = siteContent["main-content"]["services-h4"];
+
+let servicesP = document.querySelectorAll("p")[2];
+servicesP.textContent = siteContent["main-content"]["services-content"];
+
+let productH4 = document.querySelectorAll("h4")[3];
+productH4.textContent = siteContent["main-content"]["product-h4"];
+
+let productP = document.querySelectorAll("p")[3];
+productP.textContent = siteContent["main-content"]["product-content"];
+
+// Contact
