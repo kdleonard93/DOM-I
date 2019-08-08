@@ -72,6 +72,12 @@ nav[3].style.color = "green";
 nav[4].style.color = "green";
 nav[5].style.color = "green";
 
+// Adding links
+let newLink = document.createElement("a");
+let navMain = document.getElementsByTagName("nav");
+
+// navMain.prepend(newLink);
+
 // CTA content
 // let ctaText = document.getElementsByClassName(".cta-text");
 let ctaHead = document.querySelector("h1");
