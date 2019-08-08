@@ -101,4 +101,13 @@ productH4.textContent = siteContent["main-content"]["product-h4"];
 let productP = document.querySelectorAll("p")[3];
 productP.textContent = siteContent["main-content"]["product-content"];
 
+let visionH4 = document.querySelectorAll("h4")[4];
+visionH4.textContent = siteContent["main-content"]["vision-h4"];
+
+let visionP = document.querySelectorAll("p")[4];
+visionP.textContent = siteContent["main-content"]["vision-content"];
+
 // Contact
+
+let contactH4 = document.querySelectorAll("h4")[5];
+contactH4.textContent = siteContent["contact"]["contact-h4"];
